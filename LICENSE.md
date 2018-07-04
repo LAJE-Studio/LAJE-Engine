@@ -1,8 +1,8 @@
-MIT License
+MIT License  
 
-Copyright (c) 2018 Bruno Ribeiro Braga Silva Freire
-Copyright (c) 2018 Conrado Fregonese Feltrin
-Copyright (c) 2018 LAJE-Studio
+Copyright (c) 2018 Bruno Ribeiro Braga Silva Freire  
+Copyright (c) 2018 Conrado Fregonese Feltrin  
+Copyright (c) 2018 LAJE-Studio  
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
