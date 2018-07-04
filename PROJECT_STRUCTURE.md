@@ -16,7 +16,6 @@ Root Folder/
         Graphics/
             Include/
             Source/
-        ...
 ```
 
 ## Include
