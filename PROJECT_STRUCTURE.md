@@ -7,12 +7,12 @@ Root Folder/
         glew/
         glm/
     Engine/
-        Common/  
-            Include/  
-            Source/
-		Core/
+        Common/
             Include/
-			Source/
+            Source/
+        Core/
+            Include/
+            Source/
         Graphics/
             Include/
             Source/
