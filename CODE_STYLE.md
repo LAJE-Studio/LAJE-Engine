@@ -8,7 +8,7 @@ Here are a list of the most notable modifications:
     * The sole exception are for interface types, which should be prefixed with a single uppercase **I**.
         *  Example: ```ICombatant```
 * We use ```#pragma once``` over define guards.
-* All primitive integer and floating points variables and members should be defined using the defined types at **<Common/Types.h>**, for example: **U8, U32, F32, F64, S32**.
+* All primitive integer and floating points variables and members should be defined using the defined types at **<Common/Types.h>**, for example: **uint8, uint32, float32, float64, int32**.
 * Interface types should also be declared using the **interface** define, which is defined at **<Common/Types>**.
 
 ```cpp
@@ -18,21 +18,21 @@ Here are a list of the most notable modifications:
 class ProjectilePool : public Actor {
 private:
     // The amount of objects that are allocated when the actor is initialized
-    U32 prewarmAmount;
+    uint32 prewarmAmount;
 
     /* The amount of objects that are allowed to be allocated at, when all the polled
      * objects are in use.
      * If there currently more temporary objects allocated than tempAllocAmount, then ProjectilePool#Get
      * will return a nullptr;
      */
-    U32 tempAllocAmount;
+    uint32 tempAllocAmount;
     void Prewarm();
 public:
     Projectile * Get();
     bool IsCompletelyInUse();
     bool HasTemporaryAllocations();
-    U32 GetTotalInUse();
-    U32 GetTotalTemporary();
+    uint32 GetTotalInUse();
+    uint32 GetTotalTemporary();
     void Return(Projectile * projectile);
 }
 ```
