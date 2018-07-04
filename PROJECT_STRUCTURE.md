@@ -8,10 +8,10 @@ Root Folder/
         glm/
     Engine/
         Common/  
-	        Include/  
-		    Source/
+            Include/  
+            Source/
 		Core/
-		    Include/
+            Include/
 			Source/
         Graphics/
             Include/
