@@ -1,4 +1,4 @@
 # LAJE Engine
 ## The inhouse engine for LAJE Studio
 ## License
-T.B.D.
+MIT, read [LICENSE.md](LICENSE.md) for more information
