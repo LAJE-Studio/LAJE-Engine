@@ -1,6 +1,6 @@
 #pragma once
 
-#include <Types.h>
+#include <CommonTypes.h>
 
 #define glCall(x) glClearErrors();\
                   x;\

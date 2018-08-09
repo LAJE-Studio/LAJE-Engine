@@ -1,6 +1,6 @@
 #pragma once
 
-#include <Types.h>
+#include <CommonTypes.h>
 
 interface IGLBindable {
     virtual const uint32 GetID() = 0;

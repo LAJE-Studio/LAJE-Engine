@@ -1,6 +1,5 @@
-#pragma once
 #define interface struct
-
+#define abstract
 typedef unsigned char uint8;
 typedef unsigned short uint16;
 typedef unsigned int uint32;
@@ -11,7 +10,7 @@ typedef short int16;
 typedef int int32;
 typedef long int64;
 
-/**
- *
- */
-typedef const char* string;
+typedef float float32;
+typedef double float64;
+
+typedef const char *string;

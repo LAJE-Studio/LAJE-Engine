@@ -1,12 +1,13 @@
 function(CreateModule MODULE_NAME MODULE_SOURCES)
     set(MODULE_PATH ${CMAKE_HOME_DIRECTORY}/Engine/${MODULE_NAME})
     message("Creating module ${MODULE_NAME} (${MODULE_PATH}) (${MODULE_SOURCES})")
+    message("Include sources: ${MODULE_PATH}/Include")
     add_library(${MODULE_NAME} ${MODULE_SOURCES})
     target_include_directories(${MODULE_NAME}
             PUBLIC
             $<BUILD_INTERFACE:${MODULE_PATH}/Include>
             $<INSTALL_INTERFACE:Include>
-            ${MODULE_PATH}/Include
+            #${MODULE_PATH}/Include
             PRIVATE
             ${MODULE_PATH}/Source
             )

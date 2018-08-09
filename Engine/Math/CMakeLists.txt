@@ -1,0 +1,7 @@
+set(MATH_BEZIER Include/Bezier/BezierCurve.h Source/Bezier/BezierCurve.cpp)
+set(MATH_VECTORS Include/Vectors/Vector3.h Source/Vectors/Vector3.cpp)
+set(MATH_MATRICES Include/Matrices/Matrix4x4.h)
+set(MATH_ALL ${MATH_BEZIER} ${MATH_VECTORS})
+CreateModule(Math "${MATH_ALL}")
+find_package(GLM REQUIRED)
+target_link_libraries(Math Common)
